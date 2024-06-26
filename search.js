@@ -13,7 +13,7 @@ function search(query)
 
     for (i = 0; i < books.length; i++)
     {
-        if (books[i].textContent.toUpperCase().trim() == query.toUpperCase().trim())
+        if (query.toUpperCase().trim() in books[i].textContent.toUpperCase().trim())
         {
             books[i].scrollIntoView();
         }
