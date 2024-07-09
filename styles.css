@@ -1,0 +1,119 @@
+.flex-navbar
+{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #ffff88;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.flex-navbar > #icon
+{
+    margin-right: auto;
+    margin-left: 30px;
+    padding: 0;
+
+}
+
+.flex-navbar > #search, button
+{
+    position: absolute;
+    border-color: white;
+    border-radius: 1000px
+}
+
+#icon > a > img
+{
+    width: 50px;
+}
+
+ul a:link, ul a:visited
+{
+    color: black;
+    font:  24px Sofia;
+    display: block;
+    padding: 20px 40px;
+    text-decoration: none;
+}
+
+ul a:hover
+{
+    color: white;
+    background-color: black;
+    font:  24px Sofia;
+    display: block;
+    padding: 5px 40px;
+    border-radius: 1000px;
+    text-decoration: none;
+}
+
+#icon > a
+{
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+p a:link
+{
+    color: #ffff88;
+    text-decoration: none;
+}
+
+p a:hover
+{
+    color: #ffff88;
+}
+
+p a:visited
+{
+    color: yellow;
+    text-decoration: none;
+}
+
+.book-header-mth
+{
+    color: white;
+    font: 40px Sofia;
+    text-shadow: 3px 3px 3px #baffc9;
+    margin: 30px 0 0 30px;
+}
+
+.book-header-hb
+{
+    color: white;
+    font: 40px Sofia;
+    text-shadow: 3px 3px 3px #a1e1ff;
+    margin: 30px 0 0 30px;
+}
+
+.book-header-ac
+{
+    color: white;
+    font: 40px Sofia;
+    text-shadow: 3px 3px 3px #f1cbff;
+    margin: 30px 0 0 30px;
+}
+
+p
+{
+    color: white;
+    font: 20px Merriweather;
+    margin: 10px 20px 5px 30px;
+    padding:0;
+}
+
+p > img
+{
+    margin: 0 10px 0 5px;
+    width: 250px;
+    box-shadow: 5px 5px 5px #aaffa9;
+    float: right;
+}
+
+
+
+
+
