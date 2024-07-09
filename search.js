@@ -13,10 +13,11 @@ function search(query)
 
     for (i = 0; i < books.length; i++)
     {
-        if (query.toUpperCase().trim() === books[i].textContent.toUpperCase().trim())
+        if (books[i].textContent.toUpperCase().trim() == query.toUpperCase().trim())
         {
             books[i].scrollIntoView();
         }
     }
 }
+
 
